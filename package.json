@@ -1,0 +1,30 @@
+{
+  "name": "mx.edu.utxj.ti.awi4.practica06",
+  "version": "1.0.0",
+  "description": "Implementación de la Persistencia de los datos de sesión en una Base de Datos NoRelacional.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "HTTP",
+    "UUID"
+  ],
+  "author": "Diego Miguel Rivera Chavez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "moment-timezone": "^0.5.46",
+    "mongoose": "^8.9.5",
+    "os": "^0.1.2",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
